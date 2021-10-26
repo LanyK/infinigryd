@@ -1,0 +1,10 @@
+Präsentation
+
+1. Actor-Modell [README]
+2. API [docs]
+3. NetChannel [docs]
+4. infinigryd [tafel]
+  - explanation
+  - demo [8080]
+5. remaining issue(s) [log]
+6. Contributions [README]

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+THTTPD_ROOT="$(pwd)/$(dirname ${0})/.."
+THTTPD_OPTS="-D -d ${THTTPD_ROOT}/www -nor -u ${USER} -T utf-8 -p 8080 -l ${THTTPD_ROOT}/log/thttpd.log -c **.json|**.sh"
+
+exec ${THTTPD_ROOT}/bin/thttpd ${THTTPD_OPTS}

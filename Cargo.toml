@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "actlib",
+    "cfg-generator",
+    "infinigryd",
+    "netchannel",
+    "webworker",
+    "work-distributer-test",
+    # "view",
+]

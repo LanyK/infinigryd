@@ -1,0 +1,15 @@
+[package]
+name = "alt_infinigryd"
+version = "0.1.0"
+authors = ["Yannick Kaiser <Y.Kaiser@campus.lmu.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+simple_logger = "1.5"
+actlib = { path = "../actlib" }
+serde = { version = "1", features = ["derive"] }
+log = "0"
+hostname = "0.3"
+bincode = "1"
